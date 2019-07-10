@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp">
+<TextView
+    android:layout_width="0dp"
+    android:layout_weight="2"
+    android:layout_height="wrap_content"
+    android:id="@+id/date_text"
+    android:textColor="#fff"
+    android:text="2019/7/10  明天"
+    android:layout_gravity="center_vertical"
+    />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="30dp"
+        android:id="@+id/info_image2"
+        android:textColor="#fff"
+       android:src="@drawable/d100"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_text"
+        android:textColor="#fff"
+        android:text="阵雨/多云"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="30dp"
+        android:id="@+id/info_image"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="wrap_content"
+        android:id="@+id/max_min_text"
+        android:textColor="#fff"
+        android:text="32℃/24℃"
+        android:layout_gravity="center"
+        android:gravity="right"
+        />
+</LinearLayout>
